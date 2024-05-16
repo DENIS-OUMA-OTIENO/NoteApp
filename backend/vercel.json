@@ -3,7 +3,7 @@
 {
   "builds": [
     {
-      "src": "backend/index.ts",
+      "src": "backend/api/index.ts",
       "use": "@vercel/node",
       "config": {
         "distDir": "dist"
@@ -13,7 +13,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "backend/index.ts"
+      "dest": "backend/api/index.ts"
     }
   ]
 }
