@@ -1,6 +1,6 @@
-import app from "./src/app";
-import env from "./src/util/validateEnv";
-import mongoose from "mongoose";
+const app = require("./src/app");
+const env = require("./src/util/validateEnv");
+const mongoose = require("mongoose");
 
 const port = env.PORT;
 
