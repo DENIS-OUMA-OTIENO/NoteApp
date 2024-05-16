@@ -4,13 +4,8 @@
   "description": "",
   "main": "dist/server.js",
   "scripts": {
-<<<<<<< HEAD
-    "start": "nodemon src/server.ts",
-=======
     "start": "node index.ts",
     "build": "node index.ts",
-    "build": "tsc",
->>>>>>> 42d36aab7902fe7361281e9aa08ce9f4d29b1d6e
     "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
